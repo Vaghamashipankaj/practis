@@ -1,0 +1,32 @@
+what is component?
+=> 1)componet is indipend and reusebal code 2)componet two types function componet and class componets
+   3)use for header and sidebar footer 4)pacifick part 
+   
+what class componet
+only for data render use for class componets
+
+what is jsx
+1)use for html element 
+
+what is props?
+=> props is stand proparty there are only read component 2) it is store for value of attribut
+3) to transfer data componet to components
+
+what is hook?
+=>1)usestate
+  2)useefect
+  3)usememo
+  4)useredues
+  5)useref
+
+  what is state
+  state is react hook the allow for rect function componet 2)it return an array with two value first current value and second valur update
+  3) from and input modifiction
+  what is useefect
+  useefect is side effect handel 2)use for set time out
+
+ what react cylcel method
+ 1)mouting
+ 2)didupdating
+ 3)didunmouting
+

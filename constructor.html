@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        // canstructor method
+        class railway{
+            constructor(name,age){
+             console.log("consrtucter"+name+age)
+             this.name = name
+             this.age = age
+            }
+            submit(){
+                alert(this.name+":submit you from:"+this.age)
+            }
+            cancall(){
+                alert(this.name+":your ticket cancall:"+this.age)
+            }
+        }
+
+        class train extends railway {
+            eat(){
+                alert( this.name+"hello nilesh"+this.age)
+            } 
+        }
+        let pankaj = new railway("pankaj",25)
+        let nilesh = new train("nilesh",24)
+        pankaj.submit();
+        pankaj.cancall();
+        pankaj.submit();
+        nilesh.eat();
+        
+    </script>
+</body>
+</html>

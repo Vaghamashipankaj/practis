@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        for(let a=0; a<=5; a++){
+            for(let b=1; b<=a; b++){
+                document.write(a);
+            }
+            document.write("<br/>")
+        }
+
+        let num = [12,9,45,6]
+        let add = Math.max(...num)
+        document.write("<br/>"+add);
+        let muv = Math.min(...num)
+        document.write("<br/>"+muv);
+        console.log(num.sort((a,b)=>{
+            return a-b;
+        }))
+
+       let arrr = "hello bhai sab"
+       arrr.split(" ")
+       console.log(arrr);
+    </script>
+</body>
+</html>
